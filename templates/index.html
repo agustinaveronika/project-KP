@@ -137,7 +137,7 @@
       <div class="intro-section" id="home-section">
         <div
           class="slide-1"
-          style="background-image: url('images/hero_1.jpg')"
+          style="background-image: url('/static/images/hero_1.jpg')"
           data-stellar-background-ratio="0.5"
         >
           <div class="container">
@@ -228,7 +228,10 @@
               <div class="course bg-white h-100 align-self-stretch">
                 <figure class="m-0">
                   <a href="course-single.html"
-                    ><img src="images/img_1.jpg" alt="Image" class="img-fluid"
+                    ><img
+                      src="{{url_for('static' , filename='images/img_1.jpg')}}"
+                      alt="Image"
+                      class="img-fluid"
                   /></a>
                 </figure>
                 <div class="course-inner-text py-4 px-4">
@@ -252,7 +255,10 @@
               <div class="course bg-white h-100 align-self-stretch">
                 <figure class="m-0">
                   <a href="course-single.html"
-                    ><img src="images/img_2.jpg" alt="Image" class="img-fluid"
+                    ><img
+                      src="{{url_for('static' , filename='images/img_2.jpg')}}"
+                      alt="Image"
+                      class="img-fluid"
                   /></a>
                 </figure>
                 <div class="course-inner-text py-4 px-4">
@@ -276,7 +282,10 @@
               <div class="course bg-white h-100 align-self-stretch">
                 <figure class="m-0">
                   <a href="course-single.html"
-                    ><img src="images/img_3.jpg" alt="Image" class="img-fluid"
+                    ><img
+                      src="{{url_for('static' , filename='images/img_3.jpg')}}"
+                      alt="Image"
+                      class="img-fluid"
                   /></a>
                 </figure>
                 <div class="course-inner-text py-4 px-4">
@@ -300,7 +309,10 @@
               <div class="course bg-white h-100 align-self-stretch">
                 <figure class="m-0">
                   <a href="course-single.html"
-                    ><img src="images/img_4.jpg" alt="Image" class="img-fluid"
+                    ><img
+                      src="{{url_for('static' , filename='images/img_4.jpg')}}"
+                      alt="Image"
+                      class="img-fluid"
                   /></a>
                 </figure>
                 <div class="course-inner-text py-4 px-4">
@@ -324,7 +336,10 @@
               <div class="course bg-white h-100 align-self-stretch">
                 <figure class="m-0">
                   <a href="course-single.html"
-                    ><img src="images/img_5.jpg" alt="Image" class="img-fluid"
+                    ><img
+                      src="{{url_for('static' , filename='images/img_5.jpg')}}"
+                      alt="Image"
+                      class="img-fluid"
                   /></a>
                 </figure>
                 <div class="course-inner-text py-4 px-4">
@@ -348,7 +363,10 @@
               <div class="course bg-white h-100 align-self-stretch">
                 <figure class="m-0">
                   <a href="course-single.html"
-                    ><img src="images/img_6.jpg" alt="Image" class="img-fluid"
+                    ><img
+                      src="{{url_for('static' , filename='images/img_6.jpg')}}"
+                      alt="Image"
+                      class="img-fluid"
                   /></a>
                 </figure>
                 <div class="course-inner-text py-4 px-4">
@@ -399,7 +417,7 @@
           <div class="row mb-5 align-items-center">
             <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
               <img
-                src="images/undraw_youtube_tutorial.svg"
+                src="{{url_for('static' , filename='images/undraw_youtube_tutorial.svg')}}"
                 alt="Image"
                 class="img-fluid"
               />
@@ -473,7 +491,7 @@
           <div class="row mb-5 align-items-center">
             <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
               <img
-                src="images/undraw_teacher.svg"
+                src="{{url_for('static' , filename='images/under.svg')}}"
                 alt="Image"
                 class="img-fluid"
               />
@@ -533,7 +551,7 @@
             >
               <div class="teacher text-center">
                 <img
-                  src="images/person_1.jpg"
+                  src="{{url_for('static' , filename='images/person_1.jpg')}}"
                   alt="Image"
                   class="img-fluid w-50 rounded-circle mx-auto mb-4"
                 />
@@ -556,7 +574,7 @@
             >
               <div class="teacher text-center">
                 <img
-                  src="images/person_2.jpg"
+                  src="{{url_for('static' , filename='images/person_2.jpg')}}"
                   alt="Image"
                   class="img-fluid w-50 rounded-circle mx-auto mb-4"
                 />
@@ -579,7 +597,7 @@
             >
               <div class="teacher text-center">
                 <img
-                  src="images/person_3.jpg"
+                  src="{{url_for('static' , filename='images/person_3.jpg')}}"
                   alt="Image"
                   class="img-fluid w-50 rounded-circle mx-auto mb-4"
                 />
@@ -606,7 +624,7 @@
           <div class="row justify-content-center align-items-center">
             <div class="col-md-8 text-center testimony">
               <img
-                src="images/person_4.jpg"
+                src="{{url_for('static' , filename='images/person_4.jpg')}}"
                 alt="Image"
                 class="img-fluid w-25 mb-4 rounded-circle"
               />
@@ -725,7 +743,7 @@
               data-aos-delay="200"
             >
               <img
-                src="images/person_transparent.png"
+                src="{{url_for('static' , filename='images/person_transparent.png')}}"
                 alt="Image"
                 class="img-fluid"
               />
